@@ -1,7 +1,7 @@
 {
   "name": "clinica-medica",
   "version": "0.1.0",
-  "homepage": "https://dranancycenteno.github.io/draNancyCenteno/",
+  "homepage": "https://draNancyCenteno.github.io/draNancyCenteno",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
