@@ -1,0 +1,507 @@
+.free {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+.mcolor {
+    color: white;
+    background-color: #e35897;
+    border-color: white;
+    border-width: 2px;
+}
+
+.colorT {
+    background: #e35897;
+    color: white;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    color: #f5b3d1;
+}
+
+
+.nombre {
+    background-color: #6e60a0be;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+
+}
+
+.sombra {
+    animation: fadeIn 1s ease-in-out;
+    box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+.imagen-pequeña {
+    max-height: 500px;
+    /* Ajusta la altura máxima de la imagen */
+    max-width: 100%;
+    /* Ajusta el ancho máximo de la imagen */
+    animation: slideInFromLeft 1s ease-out;
+    /* Aplica la animación slideInFromLeft durante 1 segundo */
+
+}
+
+.imgC {
+    border-radius: 50px;
+}
+
+.imgC2 {
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in-out, bounce 2s ease-in-out;
+
+}
+
+.defItems {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.ftamanioL {
+    background-color: #7c6eb02e;
+    border-radius: 5px;
+    animation: fadeIn 1s ease-in-out;
+    /*Aplica la animación durante 1 segundo*/
+}
+
+.footer {
+    background: #e35897;
+    width: 100%;
+    box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.2);
+    /* Sombra en la parte superior */
+}
+
+.listas {
+    animation: fadeIn 1s ease-in-out;
+    /*Aplica la animación durante 1 segundo*/
+
+}
+
+.mvision {
+    text-align: justify;
+}
+
+.mv {
+    animation: fadeIn 1s ease-in-out;
+    /*Aplica la animación durante 1 segundo*/
+}
+
+.defItems {
+    text-align: justify;
+
+}
+
+.dContact {
+    text-align: center;
+}
+
+.dImgContacto {
+    height: 50%;
+    animation: bounceIn 2s ease-in-out
+}
+
+.dContact {
+    height: 50%;
+    animation: bounceIn 2s ease-in-out
+}
+
+.pCont {
+    display: grid;
+}
+
+.mClinica{
+    animation: fadeIn 1s ease-in-out;
+}
+.nav-link.active {
+    color: #f5b3d1 !important;
+  
+}
+
+/* Ajuste para asegurar que el botón toggler se quede al final del lado derecho en pantallas pequeñas */
+@media(min-width: 492px) {
+    .ajuste {
+        margin-left: 50px;
+    }
+}
+
+@media(max-width: 391px) {
+    .ajuste {
+        width: 225px;
+    }
+
+    .nombre {
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+}
+
+@media(max-width: 991px) {
+    .tamanioL {
+        font-size: 12px;
+        text-align: justify;
+        margin-top: 5px;
+    }
+
+    .tamanioL2 {
+        padding-top: 1px;
+        text-align: center;
+    }
+
+    .descrip {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .imgC {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .listas {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin-top: -30px;
+        font-size: 12px;
+        padding-right: 15px;
+
+    }
+
+    .list1,
+    .list2 {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    .tlista {
+        text-align: center;
+    }
+
+    .mv {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 12px;
+    }
+
+    .divDes {
+        margin-top: -15px;
+    }
+
+    .sItems {
+        display: grid;
+    }
+
+    .dimage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .defItems {
+        padding: 10px 40px 10px 40px;
+
+    }
+
+    .imgContacto {
+        width: 100%;
+        height: 300px;
+    }
+
+    .dContact {
+        padding: 0 25px 0 25px;
+
+    }
+
+    .iDesc {
+        padding-top: 40px;
+        margin-top: 10px;
+        padding-bottom: 50px;
+    }
+    .carousel {
+        width: 100%;
+        /* Puedes ajustar esta altura según sea necesario */
+    }
+
+    .cImagen {
+        padding: 0 15px 0 15px;
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .cDescripcion{
+        font-weight: bold;
+        background: rgba(0, 0, 0, 0.738);
+        color: white;
+        margin: 0 auto;
+        width: 20%;
+        
+    }
+
+}
+@media(min-width:700px){
+    .carousel {
+        width: 100%;
+        /* Puedes ajustar esta altura según sea necesario */
+    }
+
+    .cImagen {
+        padding: 0 15px 0 15px;
+        width: 100%;
+        height: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:538px) {
+    .imgContacto {
+        width: 100%;
+        height: 200px;
+    }
+    .cImagen {
+        padding: 0 15px 0 15px;
+        width: 100%;
+        height: 275px;
+        margin: 0 auto;
+
+    }
+}
+
+@media(min-width:1156px) {
+    .list1 {
+        width: 50%;
+        padding: 0 130px 0 180px;
+
+    }
+
+    .list2 {
+        width: 50%;
+        padding: 0 180px 0 130px;
+    }
+}
+
+@media(min-width:992px) {
+    .tamanioL {
+        font-size: 20px;
+        text-align: justify;
+        padding-right: 30px;
+        padding-left: 30px;
+        margin-left: -21px;
+    }
+
+    .imgC {
+
+        justify-content: end;
+
+    }
+
+    .imgC2 {
+        margin-left: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .listas {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+        text-align: justify;
+        padding-bottom: 50px;
+
+    }
+
+    .list1 {
+        width: 50%;
+        padding: 0 130px 0 130px;
+
+    }
+
+    .list2 {
+        width: 50%;
+        padding: 0 130px 0 130px;
+    }
+
+    .mv {
+        margin-top: 10px;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .mv2 {
+        padding-bottom: 15px;
+    }
+
+    .inicio {
+        font-size: 20px;
+    }
+
+    .sItems {
+        display: flex;
+        width: 100%;
+    }
+
+    .defItems {
+        margin-right: 40px;
+        width: 50%;
+    }
+
+    .dimage {
+        width: 50%;
+    }
+
+    .imgContacto {
+        width: 100%;
+        height: 500px;
+    }
+
+    .dContact {
+        padding: 0 50px 0 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cIcono {
+        height: 35px;
+    }
+
+    .iDesc {
+        padding-top: 150px;
+
+    }
+
+    .carousel {
+        display: flex;
+        justify-content: center;
+        /* Centra horizontalmente */
+        align-items: center;
+        /* Centra verticalmente */
+        width: 1000px;
+        height: 600px;
+        /* Puedes ajustar esta altura según sea necesario */
+    }
+
+    .cImagen {
+        padding: 0 100px 0 100px;
+        margin-bottom: 100px;
+        width: 1000px;
+        height: 600px;
+        margin: 0 auto;
+
+    }
+    .cDescripcion{
+        font-weight: bold;
+        background: rgba(0, 0, 0, 0.738);
+        color: white;
+        margin: 0 auto;
+        width: 20%;
+        
+    }
+
+
+
+
+
+}
+
+@media (min-height: 100px) {
+    .principal {
+        display: grid;
+        place-items: center;
+        /* Centra vertical y horizontalmente */
+        min-height: 100vh;
+        /* Asegura que el contenedor ocupe toda la altura de la ventana */
+    }
+}
+
+@media(min-width: 1199px) {
+    .menu {
+        margin-right: 75px;
+    }
+
+    .ajuste {
+        margin-left: 100px;
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 2;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes bounceIn {
+
+    0%,
+    20%,
+    40%,
+    60%,
+    80%,
+    100% {
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+
+    20% {
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+
+    40% {
+        transform: scale3d(.9, .9, .9);
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale3d(1.03, 1.03, 1.03);
+    }
+
+    80% {
+        transform: scale3d(.97, .97, .97);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
+}
