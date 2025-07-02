@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/draNancyCenteno/draNancyCenteno/static/css/main.9e0f99cb.css",
-    "main.js": "/draNancyCenteno/draNancyCenteno/static/js/main.1e316196.js",
-    "static/media/Ultrasonido.png": "/draNancyCenteno/draNancyCenteno/static/media/Ultrasonido.3cc39934cc5c8ba864b7.png",
-    "static/media/Parto.png": "/draNancyCenteno/draNancyCenteno/static/media/Parto.a26b6d0ae563e3138fe2.png",
-    "static/media/Consulta.png": "/draNancyCenteno/draNancyCenteno/static/media/Consulta.84a261ce302db26df5de.png",
-    "static/media/Planificacion.jpg": "/draNancyCenteno/draNancyCenteno/static/media/Planificacion.2c8c97f556cc26696337.jpg",
-    "static/media/Edificio.jpeg": "/draNancyCenteno/draNancyCenteno/static/media/Edificio.a03f14868aaae87fe979.jpeg",
-    "static/media/DoctoraNancy.jpeg": "/draNancyCenteno/draNancyCenteno/static/media/DoctoraNancy.7777c6486378fa001c79.jpeg",
-    "static/media/SalaEspera.jpeg": "/draNancyCenteno/draNancyCenteno/static/media/SalaEspera.7779a07e5e2865129481.jpeg",
-    "static/media/Secretaría.jpeg": "/draNancyCenteno/draNancyCenteno/static/media/Secretaría.f6e2c45ab050b1def2ec.jpeg",
-    "static/media/AreaExamen.jpeg": "/draNancyCenteno/draNancyCenteno/static/media/AreaExamen.d4f31638ef585cc8537b.jpeg",
-    "static/media/AreaEntrevista.jpeg": "/draNancyCenteno/draNancyCenteno/static/media/AreaEntrevista.ace8c3b3430f45238edb.jpeg",
-    "static/media/Papanicolaou.jpg": "/draNancyCenteno/draNancyCenteno/static/media/Papanicolaou.3a3d35cc873b2492f866.jpg",
-    "static/media/Logo.png": "/draNancyCenteno/draNancyCenteno/static/media/Logo.f1df4642d917eee35c6f.png",
-    "static/media/Prenatal.jpg": "/draNancyCenteno/draNancyCenteno/static/media/Prenatal.d4e618c5a6eb1d0f7699.jpg",
-    "index.html": "/draNancyCenteno/draNancyCenteno/index.html",
-    "main.9e0f99cb.css.map": "/draNancyCenteno/draNancyCenteno/static/css/main.9e0f99cb.css.map",
-    "main.1e316196.js.map": "/draNancyCenteno/draNancyCenteno/static/js/main.1e316196.js.map"
+    "main.css": "/draNancyCenteno/static/css/main.9e0f99cb.css",
+    "main.js": "/draNancyCenteno/static/js/main.330d1351.js",
+    "static/media/Ultrasonido.png": "/draNancyCenteno/static/media/Ultrasonido.3cc39934cc5c8ba864b7.png",
+    "static/media/Parto.png": "/draNancyCenteno/static/media/Parto.a26b6d0ae563e3138fe2.png",
+    "static/media/Consulta.png": "/draNancyCenteno/static/media/Consulta.84a261ce302db26df5de.png",
+    "static/media/Planificacion.jpg": "/draNancyCenteno/static/media/Planificacion.2c8c97f556cc26696337.jpg",
+    "static/media/Edificio.jpeg": "/draNancyCenteno/static/media/Edificio.a03f14868aaae87fe979.jpeg",
+    "static/media/DoctoraNancy.jpeg": "/draNancyCenteno/static/media/DoctoraNancy.7777c6486378fa001c79.jpeg",
+    "static/media/SalaEspera.jpeg": "/draNancyCenteno/static/media/SalaEspera.7779a07e5e2865129481.jpeg",
+    "static/media/Secretaría.jpeg": "/draNancyCenteno/static/media/Secretaría.f6e2c45ab050b1def2ec.jpeg",
+    "static/media/AreaExamen.jpeg": "/draNancyCenteno/static/media/AreaExamen.d4f31638ef585cc8537b.jpeg",
+    "static/media/AreaEntrevista.jpeg": "/draNancyCenteno/static/media/AreaEntrevista.ace8c3b3430f45238edb.jpeg",
+    "static/media/Papanicolaou.jpg": "/draNancyCenteno/static/media/Papanicolaou.3a3d35cc873b2492f866.jpg",
+    "static/media/Logo.png": "/draNancyCenteno/static/media/Logo.f1df4642d917eee35c6f.png",
+    "static/media/Prenatal.jpg": "/draNancyCenteno/static/media/Prenatal.d4e618c5a6eb1d0f7699.jpg",
+    "index.html": "/draNancyCenteno/index.html",
+    "main.9e0f99cb.css.map": "/draNancyCenteno/static/css/main.9e0f99cb.css.map",
+    "main.330d1351.js.map": "/draNancyCenteno/static/js/main.330d1351.js.map"
   },
   "entrypoints": [
     "static/css/main.9e0f99cb.css",
-    "static/js/main.1e316196.js"
+    "static/js/main.330d1351.js"
   ]
 }
